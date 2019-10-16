@@ -1,4 +1,12 @@
 package com.example.prueba.dataclasses
 
-class Estudiantes {
-}
+//Modelos de datos
+
+data class Estudiantes (
+
+val nombreest:String,
+val semestre:String,
+val carrera:String,
+val edad:String
+
+)
